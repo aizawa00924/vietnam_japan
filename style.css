@@ -854,19 +854,19 @@ template {
 .widget-area,
 .site-footer {
 	padding-top: var(--global--spacing-vertical);
-	padding-bottom: var(--global--spacing-vertical);
+	padding-bottom: 0;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 .site-header {
 	padding-top: calc(0.75 * var(--global--spacing-vertical));
-	padding-bottom: calc(2 * var(--global--spacing-vertical));
+	padding-bottom: 0;
 }
 @media only screen and (min-width: 482px) {
 
 	.site-header {
-		padding-bottom: calc(3 * var(--global--spacing-vertical));
+		padding-bottom: 0;
 	}
 }
 
