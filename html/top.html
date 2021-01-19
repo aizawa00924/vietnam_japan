@@ -1,6 +1,12 @@
 
 <!-- wp:html -->
 <style>
+    .site-title {
+        font-size: 20px;
+    }
+    .site-description {
+        font-size: 14px;
+    }
     .entry-content {
         background-color: #f1f1f1;
     }
@@ -10,7 +16,7 @@
         padding: 20px 30px;
     }
     .body_wrapper h2 {
-        font-size: 28px;
+        font-size: 18px;
         padding: 10px;
         margin: 0 auto;
         text-align: center;
@@ -18,7 +24,7 @@
     }
     .body_wrapper .message_wrapper {
         padding: 20px;
-        width: 80%;
+        width: 100%;
         margin: 20px auto;
     }
     .body_wrapper .message_wrapper .message_in_wrapper {
@@ -27,14 +33,15 @@
     }
     .body_wrapper .message_wrapper .message_in_wrapper .message_img {
         width: 180px;
-         float: left;
+        margin: 0 auto;
     }
     .body_wrapper .message_wrapper .message_in_wrapper .right_wrapper {
-        padding: 0 0 0 240px;
+        padding: 20px;
     }
+
     .body_wrapper .message_wrapper .message_in_wrapper .right_wrapper .right_subtitle {
-     font-size: 18px;
-     text-align: left;
+     font-size: 14px;
+     text-align: center;
     }
     .body_wrapper .message_wrapper .message_in_wrapper .right_wrapper .right_subtitle img {
         width: 34px;
@@ -44,23 +51,79 @@
     .body_wrapper .message_wrapper .message_in_wrapper .right_wrapper .right_name {
         font-size: 22px;
         margin-bottom: 40px;
+        text-align: center;
     }
     .body_wrapper .message_wrapper .message_in_wrapper .right_wrapper .right_name .txt_small {
         font-size: 14px;
     }
     .icon_comment {
         padding: 5px;
-    font-size: 14px;
+    font-size: 12px;
     color: #fff;
     background-color: #888;
     display: inline;
     }
    .comment_txt {
-    font-size: 18px;
+    font-size: 14px;
     line-height: 1.4;
     margin-top: 10px;
     }
 
+    .n2-section-smartslider {
+    max-width: 780px;
+    margin: 40px auto;
+    }
+    .school_menu {
+    margin-top: 30px;
+}
+.school_menu img {
+    width: 49%;
+    margin-bottom: 5px;
+    display: inline;
+}
+.flow_img img {
+    max-width: 768px;
+    margin: 20px auto;
+    width: 100%;
+}
+.site-branding {
+    max-width: calc(100% - 60px) !important;
+}
+
+@media screen and (min-width: 1024px) {
+    .body_wrapper h2 {
+    font-size: 28px;
+    }
+    .body_wrapper .message_wrapper {
+        width: 80%;
+    }
+    .body_wrapper .message_wrapper .message_in_wrapper .message_img {
+        width: 180px;
+         float: left;
+    }
+    .body_wrapper .message_wrapper .message_in_wrapper .right_wrapper {
+        padding: 0 0 0 240px;
+    }
+    .body_wrapper .message_wrapper .message_in_wrapper .right_wrapper .right_subtitle {
+        font-size: 18px;
+    }
+    .icon_comment {
+    font-size: 14px;
+    }
+   .comment_txt {
+    font-size: 18px;
+    }
+    .body_wrapper .message_wrapper .message_in_wrapper .right_wrapper .right_subtitle {
+     text-align: left;
+    }
+    .body_wrapper .message_wrapper .message_in_wrapper .right_wrapper .right_name {
+text-align: left;
+    }
+    .school_menu img {
+    width: 19%;
+    margin-bottom: 0px;
+}
+}
 
 
     </style>
@@ -108,7 +171,7 @@
                 <div class="right_subtitle">
                     第９９代目元新宿警察署署長<img src="/images/flag_j.jpg">
                 </div>
-                <div class="right_name">第９９代目元新宿警察署署長<span class="txt_small">氏</span></div>
+                <div class="right_name">宮橋<span class="txt_small">氏</span></div>
                 <div class="icon_comment">コメント</div>
                 <div class="comment_txt">ベトナムの真面目な若者たちに犯罪に巻き込まらない定期講習が大事。</div>
             </div>
@@ -131,23 +194,32 @@
 
 
 
-    <h2 id="message">本協会が認定する優良日本語教育機関</h2>
+    <h2 id="school">本協会が認定する優良日本語教育機関</h2>
+    <div class="school_menu">
+        <a href="/archives/portfolio/stg_detail/"><img src="/images/stg_cover.jpg"></a>
+        <a href=""><img src="/images/waseda_cover.jpg"></a>
+        <a href=""><img src="/images/nishitokyo_cover.jpg"></a>
+        <a href=""><img src="/images/mihato_cover.jpg"></a>
+        <a href=""><img src="/images/yoko_cover.jpg"></a>
+    </div>
+
     [smartslider3 slider="3"]
 
 
 
+    <h2 id="flow">日本で特定技能ビザ取得する、安定した仕事就くまでの流れ</h2>
+    <div class="flow_img">
+     <img src="/images/banner01.jpg">
+    </div>
+
+
+    <h2 id="voice">先輩たちの声、成功者の経験</h2>
 
 
 
 
 
-
-
-
-
-
-
-
+    <h2 id="contact">協会連絡先</h2>
 
 
 
