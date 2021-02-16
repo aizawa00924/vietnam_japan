@@ -1,3 +1,5 @@
+/*top page*/
+
 .top_content_wrapper .site-title {
     font-size: 20px;
 }
@@ -138,7 +140,42 @@
     margin-top: 20px;
 }
 
+/*school detail page*/
+.entry-header {
+    display: none;
+}
+.school_detail {
+    padding: 0 10px;
+}
+.school_detail .n2-section-smartslider {
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+.school_detail h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.school_detail h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 16px;
+    padding: 10px;
+    background: #ccc;
+}
+
+.school_detail .introduce {
+    width: 80%;
+    margin: 0 auto 40px;
+    font-size: 16px;
+}
+
 @media screen and (min-width: 1024px) {
+
+    /*top page*/
     .top_content_wrapper .body_wrapper h2 {
         font-size: 28px;
     }
@@ -182,6 +219,10 @@
 
     .top_content_wrapper .school_menu img {
         margin-bottom: 0px;
+    }
+    .school_detail .txt_wrapper img {
+        width: 490px;
+        margin: 0 auto;
     }
 
 }
