@@ -1,0 +1,187 @@
+.top_content_wrapper .site-title {
+    font-size: 20px;
+}
+
+.top_content_wrapper .site-description {
+    font-size: 14px;
+}
+
+.top_content_wrapper .entry-content {
+    background-color: #f1f1f1;
+}
+
+.top_content_wrapper .body_wrapper {
+    max-width: 1280px;
+    background-color: #fff;
+    padding: 20px 30px;
+    margin: 0 auto;
+}
+
+.top_content_wrapper .body_wrapper h2 {
+    font-size: 18px;
+    padding: 50px 10px 10px 10px;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+
+.top_content_wrapper .body_wrapper .message_wrapper {
+    padding: 20px;
+    width: 100%;
+    margin: 20px auto;
+}
+
+.top_content_wrapper .body_wrapper .message_wrapper .message_in_wrapper {
+    display: inline-block;
+    min-height: 260px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 25px;
+}
+
+.top_content_wrapper .body_wrapper .message_wrapper .message_in_wrapper .message_img {
+    width: 180px;
+    margin: 0 auto;
+}
+
+.top_content_wrapper .body_wrapper .message_wrapper .message_in_wrapper .right_wrapper {
+    padding: 20px;
+}
+
+.top_content_wrapper .body_wrapper .message_wrapper .message_in_wrapper .right_wrapper .right_subtitle {
+    font-size: 14px;
+    text-align: center;
+}
+
+.top_content_wrapper .body_wrapper .message_wrapper .message_in_wrapper .right_wrapper .right_subtitle img {
+    width: 34px;
+    display: inline;
+    margin-left: 10px;
+}
+
+.top_content_wrapper .body_wrapper .message_wrapper .message_in_wrapper .right_wrapper .right_name {
+    font-size: 22px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.top_content_wrapper .body_wrapper .message_wrapper .message_in_wrapper .right_wrapper .right_name .txt_small {
+    font-size: 14px;
+}
+
+.top_content_wrapper .message_img {
+    display: none;
+}
+
+.top_content_wrapper .icon_comment {
+    padding: 5px;
+    font-size: 12px;
+    color: #fff;
+    background-color: #888;
+    display: inline;
+}
+
+.top_content_wrapper .comment_txt {
+    font-size: 14px;
+    line-height: 1.4;
+    margin-top: 10px;
+}
+
+.top_content_wrapper .top_content_wrapper .n2-section-smartslider {
+    max-width: 780px;
+    margin: 40px auto;
+}
+
+.top_content_wrapper .school_menu {
+    margin-top: 30px;
+    display: block;
+}
+
+.top_content_wrapper .school_menu img {
+    margin-bottom: 5px;
+}
+
+.top_content_wrapper .top_content_wrapper .flow_img img {
+    max-width: 768px;
+    margin: 20px auto;
+    width: 100%;
+}
+
+.top_content_wrapper .site-branding {
+    max-width: calc(100% - 60px) !important;
+}
+
+.top_content_wrapper .n2-section-smartslider {
+    margin-top: 5px;
+}
+
+.top_content_wrapper .contact .top_form {
+    width: 280px;
+    margin: 0 auto;
+}
+
+.top_content_wrapper .contact .top_form form input {
+    border: 1px solid;
+}
+
+.top_content_wrapper .contact .top_form form .wpcf7-form-control {
+    border: 1px solid;
+}
+
+.top_content_wrapper .contact .address_wrapper {
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.top_content_wrapper .coming {
+    text-align: center;
+    margin-top: 20px;
+}
+
+@media screen and (min-width: 1024px) {
+    .top_content_wrapper .body_wrapper h2 {
+        font-size: 28px;
+    }
+
+    .top_content_wrapper .body_wrapper .message_wrapper {
+        width: 80%;
+    }
+
+    .top_content_wrapper .body_wrapper .message_wrapper .message_in_wrapper .message_img {
+        width: 180px;
+        float: left;
+    }
+
+    .top_content_wrapper .body_wrapper .message_wrapper .message_in_wrapper .right_wrapper {
+        padding: 0 0 0 240px;
+    }
+
+    .body_wrapper .message_wrapper .message_in_wrapper .right_wrapper .right_subtitle {
+        font-size: 18px;
+    }
+
+    .top_content_wrapper .icon_comment {
+        font-size: 14px;
+    }
+
+    .top_content_wrapper .comment_txt {
+        font-size: 18px;
+    }
+
+    .top_content_wrapper .body_wrapper .message_wrapper .message_in_wrapper .right_wrapper .right_subtitle {
+        text-align: left;
+    }
+
+    .top_content_wrapper .body_wrapper .message_wrapper .message_in_wrapper .right_wrapper .right_name {
+        text-align: left;
+    }
+
+    .top_content_wrapper .school_menu {
+        display: flex;
+    }
+
+    .top_content_wrapper .school_menu img {
+        margin-bottom: 0px;
+    }
+
+}
